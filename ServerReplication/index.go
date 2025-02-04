@@ -7,7 +7,7 @@ import (
 func Run() {
 	r := gin.Default()
 
-	r.GET("/replication", getReplicatedUsers)
+	r.GET("/replication", getReplicatedProduct)
 	r.DELETE("/replication/:id", deleteReplicatedProduct)
 	r.PUT("/replication/:id", updateReplicatedProduct)
 
