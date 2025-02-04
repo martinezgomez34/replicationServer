@@ -16,7 +16,7 @@ type Product struct {
 
 var bdReplication []Product
 
-func getReplicatedUsers(c *gin.Context) {
+func getReplicatedProduct(c *gin.Context) {
 	id := c.DefaultQuery("id", "")
 	name := c.DefaultQuery("name", "")
 	amount := c.DefaultQuery("amount", "")
